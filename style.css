@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: « Poppins », sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+.carte{
+     width: 90%;
+     max-width: 450px;
+     background: linear-gradient(180deg,#97c7f3, #786ad3);
+     color: #fff;
+     opacity: 80%;
+     margin: 20px auto 0;
+     border-radius: 15px;
+     border-style:ridge;
+     border-color: #fff;
+     padding: 40px 35px;
+     text-align: center;
+}
+
+.meteoicon{
+    width: 170px;
+    margin-top: 20px;
+}
+.meteo h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.meteo h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.meteodisc h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.humidity, .vent{
+    font-size: 15px;
+    margin-top: -6px;
+}
+.humidity p{
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: -10px;
+}
+.vent p{
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: -10px;
+}
+h4{
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
